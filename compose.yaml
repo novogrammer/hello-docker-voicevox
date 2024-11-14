@@ -1,0 +1,13 @@
+services:
+  voicevox:
+    image: "voicevox/voicevox_engine:cpu-ubuntu20.04-0.21.1"
+    ports:
+      - "50021:50021"
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: 1
+    deploy:
+      resources:
+        limits:
+          cpus: 2
