@@ -1,4 +1,4 @@
 old/
-*.txt
+# *.txt
 *.wav
-*.json
+# *.json
